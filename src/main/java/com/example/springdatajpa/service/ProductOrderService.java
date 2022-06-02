@@ -1,7 +1,7 @@
 package com.example.springdatajpa.service;
 
-import com.example.springdatajpa.dao.ProductOrderDetailsRepository;
-import com.example.springdatajpa.dao.ProductOrderRepository;
+import com.example.springdatajpa.repository.ProductOrderDetailsRepository;
+import com.example.springdatajpa.repository.ProductOrderRepository;
 import com.example.springdatajpa.dto.ProductOrderDto;
 import com.example.springdatajpa.model.ProductOrder;
 import org.modelmapper.ModelMapper;

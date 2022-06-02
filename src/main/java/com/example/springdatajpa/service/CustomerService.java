@@ -1,6 +1,6 @@
 package com.example.springdatajpa.service;
 
-import com.example.springdatajpa.dao.CustomerRepository;
+import com.example.springdatajpa.repository.CustomerRepository;
 import com.example.springdatajpa.model.Customer;
 import org.springframework.stereotype.Service;
 

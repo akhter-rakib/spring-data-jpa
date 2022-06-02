@@ -1,6 +1,6 @@
 package com.example.springdatajpa.service;
 
-import com.example.springdatajpa.dao.UserRepository;
+import com.example.springdatajpa.repository.UserRepository;
 import com.example.springdatajpa.model.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

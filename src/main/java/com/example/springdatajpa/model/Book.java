@@ -3,6 +3,8 @@ package com.example.springdatajpa.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Data
@@ -15,7 +17,7 @@ public class Book {
     @Column(name = "name")
     private String name;
 
-    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL)
-    private Set<BookPublisher> bookPublishers;
+    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<BookPublisher> bookPublishers;
 
 }

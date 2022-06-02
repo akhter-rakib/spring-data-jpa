@@ -1,4 +1,4 @@
-package com.example.springdatajpa.dao;
+package com.example.springdatajpa.repository;
 
 import com.example.springdatajpa.model.ProductOrderDetails;
 import org.springframework.data.jpa.repository.JpaRepository;

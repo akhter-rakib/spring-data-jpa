@@ -1,4 +1,4 @@
-package com.example.springdatajpa.dao;
+package com.example.springdatajpa.repository;
 
 import com.example.springdatajpa.dto.ProductReport;
 import com.example.springdatajpa.model.ProductOrder;
